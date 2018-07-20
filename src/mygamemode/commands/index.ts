@@ -1,4 +1,4 @@
 function setArmour(player: PlayerMp) {
-    player.health = 1;
+    player.armour = 100;
 }
 mp.events.addCommand('armour', setArmour);
